@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
   QWERTY:
-  - {t: TAB, h: ESC}
+  - Sft+TAB
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BSPC
-  - CAPS
+  - LCTRL
   - A
   - S
   - D
@@ -24,9 +24,9 @@ layers:
   - H
   - J
   - K
-  - L
+  - {t: L, h: LCTRL}
   - ;
-  - ENTER
+  - ''''
   - LSHFT
   - Z
   - X
@@ -42,20 +42,20 @@ layers:
   - ','
   - .
   - /
-  - RSHFT
-  - LCTRL
-  - LGUI
+  - {t: ESCAPE, h: RSHFT}
+  - {t: CAPSLOCK, h: toggle}
+  - {t: F2, h: Hyper+LGUI}
   - LALT
   - MUTE
-  - RAISE
-  - SPACE
-  - LOWER
+  - LEFT GUI
   - LOWER
   - SPACE
+  - ENTER
   - RAISE
+  - RIGHT GUI
   - MUTE
-  - '-'
-  - '='
+  - RIGHT ALT
+  - {t: F12, h: Sft+AltGr+Ctl+Gui+=}
   - '`'
   LOWER:
   - ESC
@@ -70,44 +70,44 @@ layers:
   - '9'
   - '0'
   - DEL
-  - CAPS
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
+  - +
+  - '|'
   - '&mkp RCLK'
   - '&mkp RCLK'
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - Ctl+[
+  - PAGE UP
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''''
-  - ENTER
-  - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '~'
+  - '-'
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&bl BL_DEC'
   - '&bl BL_INC'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - NUBS
-  - RSHFT
-  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PAGE DOWN
+  - ''
   - LGUI
   - '&bootloader'
   - BT CLR
   - {t: ▽, type: trans}
-  - SPACE
   - {t: LOWER, type: held}
-  - LOWER
+  - SPACE
+  - ''
   - SPACE
   - {t: MOUSE, h: toggle}
   - OUT TOG
@@ -116,32 +116,30 @@ layers:
   - {t: ▽, type: trans}
   RAISE:
   - ESC
-  - F1
-  - UP
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - ''
-  - CAPS
-  - LEFT
-  - DOWN
-  - RIGHT
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
   - ''
   - ''
   - ''
   - ''
-  - F11
-  - F12
   - ''
   - ''
   - ''
   - ''
-  - LSHFT
+  - ''
+  - ''
+  - '='
+  - ''
+  - '['
+  - ']'
   - ''
   - ''
   - ''
@@ -154,19 +152,21 @@ layers:
   - ''
   - ''
   - ''
+  - _
+  - ''
+  - '{'
+  - '}'
   - ''
   - ''
   - ''
-  - LCTRL
-  - LGUI
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - {t: RAISE, type: held}
   - ''
-  - ''
-  - ''
-  - ''
-  - RAISE
   - ''
   - ''
   - ''

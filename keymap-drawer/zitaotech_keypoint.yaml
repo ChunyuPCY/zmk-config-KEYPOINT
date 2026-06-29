@@ -24,9 +24,9 @@ layers:
   - H
   - J
   - K
-  - {t: L, h: LCTRL}
+  - L
   - ;
-  - ''''
+  - {t: '''', h: LCTRL}
   - LSHFT
   - Z
   - X

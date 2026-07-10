@@ -2,7 +2,7 @@
 
 **0. Register a github account if you don't have one.**  
 **1. Fork this repo.**  
-**2. Open up `config/sofle_dongle.keymap` and edit the keymap to your liking.**  
+**2. Open up `config/zitaotech_keypoint.keymap` and edit the keymap to your liking.**  
 **3. After editing the keymap, choose commit changes.**  
 **and then check the Github Actions section.**  
 **Your new firmware file should be available for download.**  

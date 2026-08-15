@@ -93,7 +93,7 @@
             bindings = <
 &kp ESC    &kp N1  &kp N2         &kp N3      &kp N4     &kp N5         &kp N6     &kp N7     &kp N8      &kp N9      &kp N0        &kp DEL
 &kp LCTRL  &trans  &kp LG(GRAVE)  &kp GRAVE   &kp PLUS   &kp BACKSLASH  &mkp RCLK  &mkp RCLK  &kp LEFT    &kp DOWN    &kp UP        &kp DOWN  &kp LC(LBKT)  &kp PAGE_UP
-&kp LSHFT  &trans  &trans         &kp TILDE   &kp MINUS  &kp PIPE       &trans     &trans     &bl BL_DEC  &bl BL_INC  &trans        &trans    &trans        &trans       &trans  &kp PAGE_DOWN
+&kp LSHFT  &to 4   &trans         &kp TILDE   &kp MINUS  &kp PIPE       &trans     &trans     &bl BL_DEC  &bl BL_INC  &trans        &trans    &trans        &trans       &trans  &kp PAGE_DOWN
 &kp CAPS   &trans  &BOT           &bt BT_CLR  &none      &mo 1          &none      &none      &none       &none       &out OUT_TOG  &BOT      &trans        &trans
             >;
 
@@ -103,10 +103,10 @@
         raise_layer {
             display-name = "RAISE";
             bindings = <
-&kp ESC    &kp F1    &kp UP    &kp F3     &kp F4  &kp F5  &kp F6  &kp F7  &kp F8   &kp F9   &kp F10  &none
-&kp CAPS   &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none   &none   &none   &kp F11  &kp F12  &none    &none  &none  &none
-&kp LSHFT  &none     &none     &none      &none   &none   &none   &none   &none    &none    &none    &none  &none  &none  &none  &none
-&kp LCTRL  &kp LGUI  &none     &none      &mo 2   &none   &none   &none   &none    &mo 2    &none    &none  &none  &none
+&kp ESC    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR  &none
+&kp LCTRL  &none     &none   &none     &none     &none      &none      &none     &none     &kp EQUAL  &none     &kp LBKT   &kp RBKT  &none
+&kp LSHFT  &none     &none   &none     &none     &none      &none      &none     &none     &none      &none     &kp UNDER  &none     &kp LBRC  &kp RBRC  &none
+&kp CAPS   &none     &none   &none     &none     &none      &none      &none     &mo 2     &none      &none     &none      &none     &none
             >;
         };
 
@@ -123,10 +123,10 @@
         RES_layer {
             display-name = "RESERVE";
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&kp TAB  &none     &kp UP    &none      &none  &none  &none  &kp N7     &kp N8     &kp N9  &none      &none
+&none    &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none  &none  &none      &kp PLUS   &kp N4  &kp N5     &kp N6  &kp STAR  &none
+&none    &to 0     &none     &none      &none  &none  &none  &none      &none      &none   &kp MINUS  &kp N1  &kp N2    &kp N3  &kp SLASH  &none
+&none    &none     &none     &none      &none  &none  &none  &kp ENTER  &kp EQUAL  &kp N0  &none      &none   &none     &none
             >;
         };
     };

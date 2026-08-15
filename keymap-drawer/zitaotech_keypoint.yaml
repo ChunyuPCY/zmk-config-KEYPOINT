@@ -55,7 +55,7 @@ layers:
   - RGUI
   - MUTE
   - RALT
-  - {t: F12, h: Sft+AltGr+Ctl+RGUI}
+  - {t: F12, h: Meh+LGUI}
   - Ctl+AltGr+SPACE
   LOWER:
   - ESC

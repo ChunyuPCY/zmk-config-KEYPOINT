@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BSPC
-  - CAPS
+  - LCTRL
   - A
   - S
   - D
@@ -26,7 +26,7 @@ layers:
   - K
   - L
   - ;
-  - ENTER
+  - ''''
   - LSHFT
   - Z
   - X
@@ -43,20 +43,20 @@ layers:
   - .
   - /
   - RSHFT
-  - LCTRL
-  - LGUI
+  - CAPS
+  - {t: F2, h: Meh+LGUI}
   - LALT
   - MUTE
-  - RAISE
-  - SPACE
-  - LOWER
+  - LGUI
   - LOWER
   - SPACE
+  - ENTER
   - RAISE
+  - RGUI
   - MUTE
-  - '-'
-  - '='
-  - '`'
+  - RALT
+  - {t: F12, h: Sft+AltGr+Ctl+RGUI}
+  - Ctl+AltGr+SPACE
   LOWER:
   - ESC
   - '1'
@@ -70,76 +70,76 @@ layers:
   - '9'
   - '0'
   - DEL
-  - CAPS
+  - LCTRL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+`
+  - '`'
+  - +
+  - \
   - '&mkp RCLK'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''''
-  - ENTER
+  - LEFT
+  - DOWN
+  - UP
+  - DOWN
+  - Ctl+[
+  - PAGE UP
   - LSHFT
+  - {t: RESERVE, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '~'
+  - '-'
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&bl BL_DEC'
   - '&bl BL_INC'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - NUBS
-  - RSHFT
-  - LCTRL
-  - LGUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PAGE DOWN
+  - CAPS
+  - {t: ▽, type: trans}
   - '&bootloader'
   - BT CLR
-  - {t: ▽, type: trans}
-  - SPACE
+  - ''
   - {t: LOWER, type: held}
-  - LOWER
-  - SPACE
-  - {t: MOUSE, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
   - OUT TOG
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   RAISE:
   - ESC
-  - F1
-  - UP
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
   - ''
-  - CAPS
-  - LEFT
-  - DOWN
-  - RIGHT
+  - LCTRL
   - ''
   - ''
   - ''
   - ''
-  - F11
-  - F12
   - ''
   - ''
   - ''
+  - ''
+  - '='
+  - ''
+  - '['
+  - ']'
   - ''
   - LSHFT
   - ''
@@ -152,21 +152,21 @@ layers:
   - ''
   - ''
   - ''
+  - _
+  - ''
+  - '{'
+  - '}'
+  - ''
+  - CAPS
   - ''
   - ''
   - ''
   - ''
   - ''
-  - LCTRL
-  - LGUI
   - ''
   - ''
   - {t: RAISE, type: held}
   - ''
-  - ''
-  - ''
-  - ''
-  - RAISE
   - ''
   - ''
   - ''
@@ -228,5 +228,60 @@ layers:
   - '-'
   - '='
   - '`'
-  RESERVE: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  RESERVE:
+  - TAB
+  - ''
+  - UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ''
+  - ''
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - +
+  - '4'
+  - '5'
+  - '6'
+  - '*'
+  - ''
+  - ''
+  - {t: QWERTY, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '-'
+  - '1'
+  - '2'
+  - '3'
+  - /
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ENTER
+  - '='
+  - '0'
+  - ''
+  - ''
+  - ''
+  - ''

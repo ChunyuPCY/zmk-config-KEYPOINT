@@ -81,7 +81,7 @@ layers:
   - LEFT
   - DOWN
   - UP
-  - DOWN
+  - RIGHT
   - Ctl+[
   - PAGE UP
   - LSHFT

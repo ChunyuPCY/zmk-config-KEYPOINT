@@ -92,9 +92,9 @@
             display-name = "LOWER";
             bindings = <
 &kp ESC    &kp N1  &kp N2         &kp N3      &kp N4     &kp N5         &kp N6     &kp N7     &kp N8      &kp N9      &kp N0        &kp DEL
-&kp LCTRL  &trans  &kp LG(GRAVE)  &kp GRAVE   &kp PLUS   &kp BACKSLASH  &mkp RCLK  &mkp RCLK  &kp LEFT    &kp DOWN    &kp UP        &kp DOWN  &kp LC(LBKT)  &kp PAGE_UP
-&kp LSHFT  &to 4   &trans         &kp TILDE   &kp MINUS  &kp PIPE       &trans     &trans     &bl BL_DEC  &bl BL_INC  &trans        &trans    &trans        &trans       &trans  &kp PAGE_DOWN
-&kp CAPS   &trans  &BOT           &bt BT_CLR  &none      &mo 1          &none      &none      &none       &none       &out OUT_TOG  &BOT      &trans        &trans
+&kp LCTRL  &trans  &kp LG(GRAVE)  &kp GRAVE   &kp PLUS   &kp BACKSLASH  &mkp RCLK  &mkp RCLK  &kp LEFT    &kp DOWN    &kp UP        &kp RIGHT  &kp LC(LBKT)  &kp PAGE_UP
+&kp LSHFT  &to 4   &trans         &kp TILDE   &kp MINUS  &kp PIPE       &trans     &trans     &bl BL_DEC  &bl BL_INC  &trans        &trans     &trans        &trans       &trans  &kp PAGE_DOWN
+&kp CAPS   &trans  &BOT           &bt BT_CLR  &none      &mo 1          &none      &none      &none       &none       &out OUT_TOG  &BOT       &trans        &trans
             >;
 
             sensor-bindings = <&BLE_encoder &inc_dec_kp UP DOWN>;
